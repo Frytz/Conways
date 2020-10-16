@@ -1,4 +1,5 @@
 body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/wp-content/themes/tweaker7/images/transp_bg.png);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -20,11 +21,11 @@ code {
 }
 
 .off {
-  background-color: lightgray;
+  background-color: white;
 }
 
 .on {
-  background-color: green;
+  background-color: black;
 }
 
 .box:hover { 
@@ -34,7 +35,7 @@ code {
 
 .box {
   display: inline-block;       
-  border: 1px solid black;
+  border: 1px solid grey;
   width: 15px;
   height: 15px;
   margin-left: -1px;
